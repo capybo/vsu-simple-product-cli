@@ -7,3 +7,6 @@ add_executable(application main.cpp
         product.h
         file_reader.h
         file_reader.cpp)
+
+file(COPY ${CMAKE_CURRENT_SOURCE_DIR}/products.txt
+        DESTINATION ${CMAKE_CURRENT_BINARY_DIR})

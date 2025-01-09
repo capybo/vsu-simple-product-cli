@@ -5,6 +5,7 @@
 #include "product.h"
 
 class file_reader {
+public:
     static void read(const std::string &file_name, std::vector<product> &products);
 };
 

@@ -24,6 +24,7 @@ bool validate_content(const std::string &line) {
 
 void file_reader::read(const std::string &file_name, std::vector<product> &products) {
     std::ifstream file(file_name);
+
     if (!file.is_open()) {
         std::cerr << "Error: Unable to open file." << std::endl;
         return;
