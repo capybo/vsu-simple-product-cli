@@ -1,0 +1,6 @@
+199.99 10 Electronics Smartphone
+149.99 5 Electronics Headphones
+50.00 20 Stationery Notebook
+15.00 50 Stationery Pen
+300.00 2 Appliances Microwave
+120.00 8 Appliances Blender
